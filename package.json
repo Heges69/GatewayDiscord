@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@botsocket/quartz": "^1.0.2",
+    "dotenv": "^10.0.0",
+    "ws": "^8.3.0"
+  },
+  "name": "gatewaydiscord",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "cls && echo Starting discord gateway... && node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heges69/GatewayDiscord.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Heges69/GatewayDiscord/issues"
+  },
+  "homepage": "https://github.com/Heges69/GatewayDiscord#readme",
+  "description": ""
+}
