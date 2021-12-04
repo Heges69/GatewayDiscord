@@ -35,4 +35,9 @@ module.exports = class shardManager{
     data(d){
         this.wsServer.route(d);
     }
+
+    send(shardId, payload){
+        if(this.shards[shardId]) return;
+        this.shards[shardId].send(payload)
+    }
 }

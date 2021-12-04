@@ -16,6 +16,8 @@ module.exports = class Shard extends EventEmitter{
             this.emit('data', {e: evt, d: data, sid: shardId})
         }
     }
-
-        
+    
+    send(p){
+        quartz.send(p);
+    }
 }
